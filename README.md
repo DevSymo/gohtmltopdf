@@ -8,7 +8,7 @@
 
 - background:
 Print background colors and images (default true)
-- browser (string(:
+- browser (string):
 Path to Chrome/Chromium executable (for airgapped environments)
 - input (string):
 Path to the input HTML file (required)
