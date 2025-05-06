@@ -6,25 +6,25 @@
 
 `./gohtmltopdf`
 
-- background
+- background:
 Print background colors and images (default true)
-- browser string
+- browser (string(:
 Path to Chrome/Chromium executable (for airgapped environments)
-- input string
+- input (string):
 Path to the input HTML file (required)
-- landscape
+- landscape:
 Set page orientation to landscape
-- no-download
+- no-download:
 Prevent automatic browser download (for airgapped environments)
-- output string
+- output (string):
 Path for the output PDF file (required)
-- paper string
+- paper (string):
 Paper size (A4, Letter, Legal, etc.) (default "A4")
-- rod string
+- rod (string):
 Set the default value of options used by rod.
-- scale float
+- scale (float):
 Scale factor for rendering (default: 1.0) (default 1)
-- timeout int
+- timeout (int):
 Timeout in seconds for the conversion process (default 60)
 
 ## Build
